@@ -11,8 +11,8 @@ class FibonacciStack :
         self.fib_num = 0 # Set initial number as 0
         self.fib = [0,1] # Set first 2 elements of fibonacci sequence
     def push(self, item):
-        self.items.append(item)
         if len(self.items) <= 100:
+            self.items.append(item)
             return True
         else:
             return False
