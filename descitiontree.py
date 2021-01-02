@@ -4,7 +4,7 @@ Created on Thu Dec  3 15:56:04 2020
 
 @author: ThinkPad
 """
-
+#This decision tree only calculate the gini index
 class DecisionTree():
     def __init__(self, data):
         self.data = data
